@@ -1,0 +1,23 @@
+
+print("welcome")
+message = input("user :")
+
+def process_message(message, reply):
+    print("welcome")
+    print("user:", message)
+    print("bot1", reply)
+   
+if message in ["hi", "hello", "hey"]:
+    process_message(message , "hello sir how can i help u")
+
+    message = input("user :")
+
+if message in ["who created you", "who are you?", "what is your name?"]:
+    process_message(message , "I am a chatbot created to assist you mylord.")
+
+    message = input("user :")
+
+if message in ["", "hello", "hey"]:
+    process_message(message , "hello sir how can i help u")
+
+

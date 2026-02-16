@@ -1,26 +1,26 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ed6060;
+    background-color: #c93c3c;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 600px;
 }
 
 
-/*main {
+main {
     background: white;
-    padding: 30px;
-    width: 300px;
-    border-radius: 81px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-*/
+
 header {
     text-align: center;
-   text-align: top;
+    margin-bottom: 15px;
 }
 
 button {
@@ -56,12 +56,4 @@ button:hover {
 
 .note-card button:hover {
     background-color: darkred;
-}
-
-ul{
-    justify-content: space-between;
-    align-items: center;
-      background-color: darkred;
-      padding: 20px;
-      text-align: left
 }
